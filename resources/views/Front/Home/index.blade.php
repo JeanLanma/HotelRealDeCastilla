@@ -4,10 +4,16 @@
     Inicio
 @endsection
 
-@include('Front._partials.menu')
 
 @section('content')
-<h1 class="text-3xl font-bold underline text-indigo-500">
-    Hello world!
-</h1>
+
+@include('Front._partials.menu')
+
+<section>
+    <!-- <div class="bg-cover w-full min-h-screen" style="background-image: url('{{asset("/images/hero-home.png")}}')"> -->
+    <!-- <div class="bg-[url('{{asset("/images/hero-home.png")}}')] bg-cover w-full min-h-screen"> -->
+    <div class="bg-[url('images/hero-home.png')] bg-cover w-full min-h-screen">
+
+    </div>
+</section>
 @endsection

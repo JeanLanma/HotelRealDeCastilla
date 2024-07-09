@@ -1,26 +1,26 @@
-<header>
-    <div class="bg-black/40 min-w-full flex justify-center">
-        <div class="w-full max-w-7xl flex justify-between items-center relative">
-            <div class="relative top-0 left-0">
-                <div class="bg-primary-blue h-32 absolute -top-3 left-0 flex items-center rounded-b-[3rem]">
-                    <a href="#" class="block w-64 px-4">
+<header class="relative">
+    <div class="absolute top-0 left-0 py-0 min-w-full flex justify-center">
+        <div class="w-full max-w-7xl flex justify-between items-center relative top-0 left-0 py-0 2xl:px-14 2xl:h-28">
+            <div>
+                <div class="bg-primary-blue h-[11.4rem] absolute -top-4 flex items-center rounded-b-[3rem]">
+                    <a href="#" class="block w-72 px-4">
                         <img class="w-full" src="{{ asset('images/logo-texto.png') }}" alt="Logo Hotel" />
                     </a>
                 </div>
             </div>
             <div>
                 <nav>
-                    <ul class="flex justify-between gap-x-4">
-                        <li>
+                    <ul class="flex justify-between gap-x-[3.5rem] text-white font-normal text-xl leading-6">
+                        <li class="px-1 border-b-2 font-bold">
                             <a href="#">Inicio</a>
                         </li>
-                        <li>
+                        <li class="px-1 hover:border-b-2">
                             <a href="#">Habitaciones</a>
                         </li>
-                        <li>
+                        <li class="px-1 hover:border-b-2">
                             <a href="#">Servicios</a>
                         </li>
-                        <li>
+                        <li class="px-1 hover:border-b-2">
                             <a href="#">Contacto</a>
                         </li>
                     </ul>
@@ -28,7 +28,7 @@
             </div>
         </div>
     </div>
-    <div class="w-full h-24">
+    <!-- <div class="w-full h-24">
 
-    </div>
+    </div> -->
 </header>
