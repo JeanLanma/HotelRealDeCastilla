@@ -1,5 +1,5 @@
 <div class="bg-[url('images/hero-home.png')] bg-cover w-full min-h-screen">
-    <div class="mx-auto max-w-7xl 2xl:px-12 flex flex-col justify-center items-start">
+    <div class="mx-auto max-w-7xl px-12 flex flex-col justify-center items-start">
         <div class="mt-[17rem]">
             <div class="text-white">
                 <p class="text-4xl">
