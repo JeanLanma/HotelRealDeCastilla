@@ -7,11 +7,13 @@ export default {
   ],
   theme: {
     fontFamily: {
-      sans: ['Montserrat', 'sans-serif']
+      sans: ['Montserrat', 'sans-serif', 'Playfair Display', 'serif']
     },
     extend: {
       colors: {
-        'primary-blue': "#14274A"
+        'primary-blue': "#14274A",
+        'acent-blue': "#002DB3",
+        'golden-yellow': "#E0B973",
       },
     },
   },

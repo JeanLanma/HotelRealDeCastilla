@@ -1,6 +1,6 @@
 <header class="relative">
     <div class="absolute top-0 left-0 py-0 min-w-full flex justify-center">
-        <div class="w-full max-w-7xl flex justify-between items-center relative top-0 left-0 py-0 2xl:px-14 2xl:h-28">
+        <div class="w-full max-w-7xl flex justify-between items-center relative top-0 left-0 py-0 2xl:px-12 2xl:h-28">
             <div>
                 <div class="bg-primary-blue h-[11.4rem] absolute -top-4 flex items-center rounded-b-[3rem]">
                     <a href="#" class="block w-72 px-4">
@@ -28,7 +28,4 @@
             </div>
         </div>
     </div>
-    <!-- <div class="w-full h-24">
-
-    </div> -->
 </header>
