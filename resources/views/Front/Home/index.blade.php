@@ -161,3 +161,14 @@
     </div>
 </section>
 @endsection
+
+@section('js-header')
+<script>
+const moveTo = () => {
+    window.scrollTo({
+        top: window.innerHeight,
+        behavior: 'smooth'
+    });
+}
+</script>
+@endsection

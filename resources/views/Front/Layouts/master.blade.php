@@ -28,6 +28,7 @@
 
   @vite('resources/css/app.css')
   @yield('css')
+  @yield('js-header')
 </head>
 <body class="antialiased">
 
