@@ -28,7 +28,7 @@
             </button>
         </div>
         <div class="mx-auto py-14">
-            <div onclick="moveTo()" class="flex flex-col items-center justify-center cursor-pointer">
+            <div onclick="moveToElement('locations', 100)" class="flex flex-col items-center justify-center cursor-pointer">
                 <p class="text-white font-bold text-lg">
                     Ver más
                 </p>

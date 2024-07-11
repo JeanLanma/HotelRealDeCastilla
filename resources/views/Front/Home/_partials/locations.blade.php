@@ -1,4 +1,4 @@
-<div class="mx-auto max-w-7xl 2xl:px-12 flex flex-col justify-center items-start">
+<div id="locations" class="mx-auto max-w-7xl 2xl:px-12 flex flex-col justify-center items-start">
 
 <div class="mt-40 flex flex-row justify-between items-center">
     <div>

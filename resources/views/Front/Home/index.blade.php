@@ -170,5 +170,13 @@ const moveTo = () => {
         behavior: 'smooth'
     });
 }
+
+const moveToElement = (element, addTopOffset = 0) => {
+    const offset = document.getElementById(element).offsetTop + addTopOffset;
+    window.scrollTo({
+        top: offset,
+        behavior: 'smooth'
+    });
+}
 </script>
 @endsection
