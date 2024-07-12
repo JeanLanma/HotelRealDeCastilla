@@ -1,0 +1,17 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-BTaeYQQ7.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/images/hero-home.png": {
+    "file": "assets/hero-home-DnF_zAEd.png",
+    "src": "resources/css/images/hero-home.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-C1-XIpUa.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
