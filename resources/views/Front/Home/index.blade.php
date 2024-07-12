@@ -34,7 +34,7 @@
     </div>
 </section>
 
-<section>
+<footer>
     <div class="mx-auto w-full flex flex-col justify-center items-start">
         <div class="w-full bg-primary-blue text-white">
             <div class="w-full max-w-7xl mx-auto my-14 flex justify-center items-center gap-8 text-sm">
@@ -159,7 +159,7 @@
             </div>
         </div>
     </div>
-</section>
+</footer>
 @endsection
 
 @section('js-header')
