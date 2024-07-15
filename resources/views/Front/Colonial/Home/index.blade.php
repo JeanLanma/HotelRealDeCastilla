@@ -51,9 +51,9 @@
 
 <!-- Hero -->
 <section>
-    <div class="bg-[url('images/hero-home.png')] bg-cover w-full min-h-screen max-w-7xl px-14 flex items-end">
+    <div class="bg-[url('images/hero-home.png')] bg-cover w-full min-h-screen  flex items-end">
         
-        <div class="w-full flex flex-col justify-end gap-y-36">            
+        <div class="max-w-7xl px-14 mx-auto w-full flex flex-col justify-end gap-y-36">            
             <div>
                 <div class="text-white">
                     <h1 class="text-2xl font-bold tracking-wide mb-7">
@@ -162,8 +162,8 @@
 
 <!-- Services -->
 <section>
-    <div class="bg-primary-light max-w-7xl mx-auto px-14 py-20">
-        <div class="">
+    <div class="bg-primary-light">
+        <div class="max-w-7xl mx-auto px-14 py-20">
             <div>
                 <div>
                     <div class="flex items-baseline text-[.6rem] text-primary-gray mb-7">
@@ -220,20 +220,22 @@
 
 <!-- History -->
 <section>
-    <div class="bg-primary-bronze max-w-7xl mx-auto px-14 py-20">
-        <div class="text-white flex flex-col justify-center mx-auto w-fit">
-            <div>
-                <div class="flex items-baseline text-[.6rem] text-primary-gray mb-7">
-                    <span><img src="{{asset('icons/Line.svg')}}" alt=""></span>
-                    <p class="ml-3">Nuestras habitaciones</p>
+    <div class="w-full bg-primary-bronze">
+        <div class="max-w-7xl mx-auto px-14 py-20">
+            <div class="text-white flex flex-col justify-center mx-auto w-fit">
+                <div>
+                    <div class="flex items-baseline text-[.6rem] text-primary-gray mb-7">
+                        <span><img src="{{asset('icons/Line.svg')}}" alt=""></span>
+                        <p class="ml-3">Nuestras habitaciones</p>
+                    </div>
+                    <h4 class="text-3xl font-bold tracking-wide mb-7 font-playfair">
+                        Elegancia, confort y comodidad
+                    </h4>
                 </div>
-                <h4 class="text-3xl font-bold tracking-wide mb-7 font-playfair">
-                    Elegancia, confort y comodidad
-                </h4>
+                <p>
+                    Siente la alegría de conocer la historia de Guadalajara, de contemplar la belleza de <br> su arquitectura y de hospedarte en las comodidades que te ofrece Hotel Real de <br> Castilla Colonial.
+                </p>
             </div>
-            <p>
-                Siente la alegría de conocer la historia de Guadalajara, de contemplar la belleza de <br> su arquitectura y de hospedarte en las comodidades que te ofrece Hotel Real de <br> Castilla Colonial.
-            </p>
         </div>
     </div>
 </section>
