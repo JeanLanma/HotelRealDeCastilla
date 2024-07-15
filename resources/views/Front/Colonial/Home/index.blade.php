@@ -79,13 +79,13 @@
                                         <p>Huespedes</p>
                                     </div>
                                     <div class="flex items-center mt-2">
-                                        <p>01</p>
+                                        <p id="GuestsDisplay">01</p>
                                         <span class="pl-2"><img src="{{asset('icons/down-chevron.svg')}}" alt="downArrow"></span>
                                     </div>
                                 </div>
                             </div>
                             
-                            <div class="flex items-start gap-4">
+                            <div id="DateCheckInTrigger" class="flex items-start gap-4 hover:cursor-pointer hover:bg-white/30 transition-colors duration-200">
                                 <div>
                                     <img src="{{asset('icons/calendar.svg')}}" alt="Icono Huesped">
                                 </div>
@@ -94,13 +94,14 @@
                                         <p>Check in</p>
                                     </div>
                                     <div class="flex items-center mt-2">
-                                        <p>09 mar 2024</p>
+                                        <input id="DateCheckInInput" name="check-in" type="date" class="hidden">
+                                        <p id="DateCheckInDisplay">09 mar 2024</p>
                                         <span class="pl-2"><img src="{{asset('icons/down-chevron.svg')}}" alt="downArrow"></span>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="flex items-start gap-4">
+                            <div id="DateCheckOutTrigger" class="flex items-start gap-4">
                                 <div>
                                     <img src="{{asset('icons/calendar.svg')}}" alt="Icono Huesped">
                                 </div>
@@ -109,7 +110,8 @@
                                         <p>Check out</p>
                                     </div>
                                     <div class="flex items-center mt-2">
-                                        <p>12 mar 2024</p>
+                                        <input id="DateCheckOutInput" name="check-out" type="date" class="hidden">
+                                        <p id="DateCheckOutDisplay">12 mar 2024</p>
                                         <span class="pl-2"><img src="{{asset('icons/down-chevron.svg')}}" alt="downArrow"></span>
                                     </div>
                                 </div>
@@ -452,4 +454,11 @@
         </div>
     </div>
 </footer>
+@endsection
+
+@section('js')
+@vite('resources/js/DatePicker/DatePicker.js')
+<script>
+
+</script>
 @endsection
