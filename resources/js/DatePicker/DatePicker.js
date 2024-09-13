@@ -1,6 +1,7 @@
 import AirDatepicker from 'air-datepicker';
 import 'air-datepicker/air-datepicker.css';
 
+import { SetTwoDigits } from '@/Helpers/Helpers.js';
 import localeEs from './LocaleEs.js';
 import Config from './ConfigDatePicker.js';
 
@@ -9,11 +10,6 @@ const BookingData = {
     CheckOut: '',
     Guests: 0
 }
-
-// Set Default Dates
-BookingData.CheckIn = Config.SetDefault.CheckIn;
-BookingData.CheckOut = Config.SetDefault.CheckOut;
-BookingData.Guests = Config.SetDefault.guests;
 
 // Close DP Button
 const closeButton = {
@@ -25,7 +21,56 @@ const closeButton = {
 }
 
 // Guests
+const PopupGuests = document.getElementById('PopupGuests');
 const GuestsDisplay = document.getElementById('GuestsDisplay');
+const Guests = document.getElementById('Guests');
+const IncreaseGuests = document.getElementById('IncreaseGuests');
+const DecreaseGuests = document.getElementById('DecreaseGuests');
+const AcceptGuests = document.getElementById('AcceptGuests');
+const ClosePopupGuests = document.getElementById('ClosePopupGuests');
+const GuestsTrigger = document.getElementById('GuestsTrigger');
+
+const isGuestsPopupVisible = () => {
+    return !PopupGuests.classList.contains('hidden');
+}
+
+GuestsTrigger.addEventListener('click', () => {
+    PopupGuests.classList.remove('hidden');
+});
+
+IncreaseGuests.addEventListener('click', () => {
+    Guests.textContent = parseInt(Guests.textContent) + 1;
+});
+
+DecreaseGuests.addEventListener('click', () => {
+    if (parseInt(Guests.textContent) > 1) {
+        Guests.textContent = parseInt(Guests.textContent) - 1;
+    }
+});
+
+AcceptGuests.addEventListener('click', () => {
+    GuestsDisplay.textContent = SetTwoDigits(Guests.textContent);
+    PopupGuests.classList.add('hidden');
+});
+
+ClosePopupGuests.addEventListener('click', () => {
+    PopupGuests.classList.add('hidden');
+});
+
+if (isGuestsPopupVisible()) {
+    // Detect when the user clicks outside the popup
+    document.addEventListener('click', function (event) {
+        if (event.target.id !== 'GuestsTrigger' && event.target.id !== 'PopupGuests' && event.target.id !== 'GuestsDisplay') {
+            PopupGuests.classList.add('hidden');
+        }
+    });
+} else {
+    document.removeEventListener('click', function (event) {
+        if (event.target.id !== 'GuestsTrigger' && event.target.id !== 'PopupGuests' && event.target.id !== 'GuestsDisplay') {
+            PopupGuests.classList.add('hidden');
+        }
+    });
+}
 
 // Check In
 const CheckInButton = document.getElementById('DateCheckInTrigger');
@@ -37,6 +82,7 @@ const CheckInDate = new AirDatepicker('#DateCheckInInput', {
     autoClose: true,
     buttons: [closeButton],
     minDate: Config.MinDate(),
+    maxDate: Config.MaxDate(),
     navTitles: {
         days: function(dp){
             if(dp.selectedDates.length){
@@ -71,6 +117,7 @@ const CheckOutDate = new AirDatepicker('#DateCheckOutInput', {
     autoClose: true,
     buttons: [closeButton],
     minDate: Config.getNextDay(),
+    maxDate: Config.MaxDate(),
     navTitles: {
         days: function(dp){
             if(dp.selectedDates.length){
@@ -95,3 +142,6 @@ CheckOutButton.addEventListener('click', function () {
 CheckInDate.selectDate(Config.SetDefault.CheckIn);
 CheckOutDate.selectDate(Config.SetDefault.CheckOut);
 GuestsDisplay.innerText = Config.SetDefault.guests;
+
+// Testing
+console.log(Config.MaxDate());

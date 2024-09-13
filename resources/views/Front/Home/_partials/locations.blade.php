@@ -18,7 +18,7 @@
             </p>
 
             <div>
-                <a target="_blank" href="https://www.figma.com/proto/vaCxb3ReiYGw72lqrwmp5K/Real-De-Castilla?node-id=1-2&t=DjqbZ1l6BiT2KowG-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&hide-ui=1">    
+                <a target="_blank" href="{{route('home.colonial')}}">    
                     <button class="text-lg px-10 py-4 bg-golden-yellow text-white font-bold">Reservar ahora</button>
                 </a>
             </div>

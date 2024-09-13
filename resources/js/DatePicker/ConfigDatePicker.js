@@ -1,7 +1,4 @@
-// Utilities
-const SetTwoDigits = (number) => {
-    return number < 10 ? `0${number}` : number;
-}
+import { SetTwoDigits } from '@/Helpers/Helpers.js';
 
 // Dates
 const GetStartDate = () => {
@@ -23,6 +20,14 @@ const getNextDay = (date = null) => {
     return new Date(year, month, day + 1);
 }
 
+const GetMaxDate = (AddDays = 365) => {
+    let date = new Date();
+    let year = date.getFullYear();
+    let month = date.getMonth();
+    let day = date.getDate();
+    
+    return new Date(year, month, (day + AddDays));
+}
 
 // Sets Date Format to "05 ene 2024" in spanish
 const SetFormatDateTitle = (date) => {
@@ -43,6 +48,7 @@ const SetFormatDateTitle = (date) => {
 
 export default {
     MinDate: GetStartDate,
+    MaxDate: GetMaxDate,
     getNextDay: getNextDay,
     SetFormatDateTitle: SetFormatDateTitle,
     SetDefault: {
