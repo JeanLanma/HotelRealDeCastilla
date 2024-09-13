@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer utilities {
+
+    /* Custom Utilities */
+    .h-calc-menu {
+        height: calc(100vh - 61.5px);
+    }
+
     .font-playfair {
         font-family: 'Playfair Display', serif;
     }
