@@ -36,7 +36,7 @@
         <div class="flex flex-col gap-8">
             <h2 class="text-primary-blue text-5xl font-playfair font-bold tracking-wide">
                 <p>Hotel Real De Castilla</p>
-                <span class="text-golden-yellow leading-relaxed">Novo</span>
+                <span class="text-golden-yellow leading-relaxed">Nuovo</span>
             </h2>
 
             <p class="text-xl font-medium text-primary-blue ">
@@ -44,7 +44,7 @@
             </p>
 
             <div>
-                <a target="_blank" href="https://www.figma.com/proto/vaCxb3ReiYGw72lqrwmp5K/Real-De-Castilla?node-id=1-2&t=DjqbZ1l6BiT2KowG-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&hide-ui=1">    
+                <a target="_blank" href="{{ route('home.nuovo') }}">    
                     <button class="text-lg px-10 py-4 bg-golden-yellow text-white font-bold">Reservar ahora</button>
                 </a>
             </div>
