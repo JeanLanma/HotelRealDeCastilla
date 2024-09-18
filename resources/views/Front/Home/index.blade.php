@@ -25,13 +25,7 @@
 </section>
 
 <section>
-    <div class="mx-auto w-full flex flex-col justify-center items-start">
-        <div class="mt-40">
-            <div>
-                <img src="{{asset('images/Ubicacion.png')}}" alt="Mapa Real de Castilla">
-            </div>
-        </div>
-    </div>
+    @include('Front.Home._partials.map')
 </section>
 
 <footer>
