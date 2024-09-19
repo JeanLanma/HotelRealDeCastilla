@@ -33,7 +33,7 @@
                     Ver más
                 </p>
                 <div class="w-12 mt-4">
-                    <img src="{{asset('icons/Subtraction 2.svg')}}" alt="schroll down">
+                    <img id="ScrollDownHeroElement" src="{{asset('icons/Subtraction 2.svg')}}" alt="schroll down">
                 </div>
             </div>
         </div>

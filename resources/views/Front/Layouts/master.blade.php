@@ -20,9 +20,9 @@
 
     <title>
     @if(View::hasSection('title'))
-      @yield('title') - {{ config('app.name', 'Laravel') }}
+      @yield('title') - {{ config('app.name', 'Hotel Real de Castilla') }}
     @else
-      {{ config('app.name', 'Laravel') }}
+      {{ config('app.name', 'Hotel Real de Castilla') }}
     @endif
     </title>
 

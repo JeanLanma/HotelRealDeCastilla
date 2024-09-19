@@ -173,4 +173,6 @@ const moveToElement = (element, addTopOffset = 0) => {
     });
 }
 </script>
+
+@vite('resources/js/Home/HomeAnimations.js')
 @endsection
