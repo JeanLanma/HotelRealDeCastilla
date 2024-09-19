@@ -36,7 +36,7 @@
         <div class="flex flex-col gap-8">
             <h2 class="text-primary-blue text-5xl font-playfair font-bold tracking-wide">
                 <p>Hotel Real De Castilla</p>
-                <span class="text-golden-yellow leading-relaxed">Nuovo</span>
+                <span id="NuovoTextElement" class="text-golden-yellow leading-relaxed">Nuovo</span>
             </h2>
 
             <p class="text-xl font-medium text-primary-blue ">

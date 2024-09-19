@@ -13,7 +13,7 @@
                         <li class="mt-2">
                             DIRECCIÓN
                             <br>
-                            184 Calle Colón, Col. Centro, Guadalajara, Jalisco.
+                            Av. Ramón Corona 171, Zona Centro, 44100 Guadalajara, Jal.
                         </li>
                         <li class="mt-8">
                             TELÉFONOS
@@ -35,7 +35,7 @@
             </div>
             <div class="w-1/2">
                 <div class="w-full h-screen">
-                    <img class="w-full h-screen" src="{{asset('images/services/map.png')}}" alt="Habitacion doble queen">
+                    <img class="w-full h-screen" src="{{asset('images/services/map-nuovo.jpg')}}" alt="Maps Hotel Real de Castilla Nuovo">
                 </div>
             </div>
         </div>

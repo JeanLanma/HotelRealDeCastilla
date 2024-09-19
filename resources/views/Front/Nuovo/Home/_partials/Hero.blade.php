@@ -1,6 +1,6 @@
 <section>
     <!-- <div class="bg-[url('images/hero-home.png')] bg-cover w-full min-h-screen  flex items-end"> -->
-    <div class="bg-[url('images/hero-home.png')] bg-cover w-full h-calc-menu  flex items-end">
+    <div class="bg-[url('images/hero-nuovo.png')] bg-cover w-full h-calc-menu  flex items-end">
         
         <div class="max-w-7xl px-14 mx-auto w-full flex flex-col justify-end gap-y-16 2xl:gap-y-36">            
             <div>
