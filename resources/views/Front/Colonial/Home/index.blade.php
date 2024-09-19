@@ -78,6 +78,7 @@
 
 @section('js')
 @vite('resources/js/DatePicker/DatePicker.js')
+@vite('resources/js/Home/HomeRoomsCarousel.js')
 <script>
 
 </script>
