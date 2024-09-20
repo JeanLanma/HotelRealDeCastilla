@@ -3,7 +3,7 @@
 <div class="mt-40 flex flex-row justify-between items-center">
     <div>
         <div class="w-[33rem]">
-            <img src="{{asset('images/Visual-Col.jpg')}}" alt="Hotel Real de Castilla Colonial">
+            <img class="pulse-on-hover" src="{{asset('images/Visual-Col.jpg')}}" alt="Hotel Real de Castilla Colonial">
         </div>
     </div>
     <div class="ml-20">
@@ -19,7 +19,7 @@
 
             <div>
                 <a target="_blank" href="{{route('home.colonial')}}">    
-                    <button class="text-lg px-10 py-4 bg-golden-yellow text-white font-bold">Reservar ahora</button>
+                    <button class="text-lg px-10 py-4 bg-golden-yellow hover:bg-primary-orange transition-colors duration-200 text-white font-bold">Reservar ahora</button>
                 </a>
             </div>
         </div>
@@ -29,14 +29,14 @@
 <div class="mt-40 flex flex-row-reverse justify-between items-center">
     <div>
         <div class="w-[33rem]">
-            <img src="{{asset('images/Visual-Col-nova.jpg')}}" alt="Hotel Real de Castilla Colonial">
+            <img class="pulse-on-hover" src="{{asset('images/Visual-Col-nova.jpg')}}" alt="Hotel Real de Castilla Colonial">
         </div>
     </div>
     <div class="mr-20">
         <div class="flex flex-col gap-8">
             <h2 class="text-primary-blue text-5xl font-playfair font-bold tracking-wide">
                 <p>Hotel Real De Castilla</p>
-                <span id="NuovoTextElement" class="text-golden-yellow leading-relaxed">Nuovo</span>
+                <span id="NuovoTextElement" class="text-golden-yellow leading-relaxed bounce-on-hover">Nuovo</span>
             </h2>
 
             <p class="text-xl font-medium text-primary-blue ">
@@ -45,7 +45,7 @@
 
             <div>
                 <a target="_blank" href="{{ route('home.nuovo') }}">    
-                    <button class="text-lg px-10 py-4 bg-golden-yellow text-white font-bold">Reservar ahora</button>
+                    <button class="text-lg px-10 py-4 bg-golden-yellow hover:bg-primary-orange transition-colors duration-200 text-white font-bold">Reservar ahora</button>
                 </a>
             </div>
         </div>

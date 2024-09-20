@@ -2,6 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Animations */
+.pulse-on-hover:hover {
+    display: inline-block;
+    animation-play-state: running;
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+}
+.bounce-on-hover:hover {
+    display: inline-block;
+    animation-play-state: running;
+    -webkit-animation: bounce 1s;
+    animation: bounce 1s;
+}
+.beat-on-hover:hover {
+    display: inline-block;
+    animation-play-state: running;
+    -webkit-animation: heartBeat 1s;
+    animation: heartBeat 1s;
+}
+.animate-on-hover:hover {
+    display: inline-block;
+    animation-play-state: running;
+    -webkit-animation: bounceIn 1s;
+    animation: bounceIn 1s;
+}
+
+/* Manual animations */
+.pane-ltr:hover {
+    display: inline-block;
+    animation-play-state: running;
+    animation: pane-ltr 9s infinite ease-in-out;
+}
+@-webkit-keyframes pane-ltr {
+    0% {
+        object-position: left;
+    }
+    50% {
+        object-position: right;
+    }
+    100% {
+        object-position: left;
+    }
+}
+@keyframes pane-ltr {
+    0% {
+        object-position: start;
+    }
+    50% {
+        object-position: right;
+    }
+    100% {
+        object-position: 50% 50%;
+    }
+}
+
 @layer utilities {
 
     /* Custom Utilities */

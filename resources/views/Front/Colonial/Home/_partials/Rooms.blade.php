@@ -32,7 +32,7 @@
                 </div>
                 <div class="w-1/2">
                     <div class="w-full h-screen">
-                        <img class="w-full h-screen object-cover" src="{{asset('images/habitaciones/habitacion-doble-queen.png')}}" alt="Habitacion doble queen">
+                        <img class="w-full h-screen object-cover pane-ltr" src="{{asset('images/habitaciones/habitacion-doble-queen.png')}}" alt="Habitacion doble queen">
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="w-1/2">
                     <div class="w-full h-screen">
-                        <img class="w-full h-screen object-cover" src="{{asset('images/habitaciones/habitacion-doble-sencilla-02.jpg')}}" alt="Habitacion doble queen">
+                        <img class="w-full h-screen object-cover pane-ltr" src="{{asset('images/habitaciones/habitacion-doble-sencilla-02.jpg')}}" alt="Habitacion doble queen">
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="w-1/2">
                     <div class="w-full h-screen">
-                        <img class="w-full h-screen object-cover" src="{{asset('images/habitaciones/habitacion-estandar-triple-03.jpg')}}" alt="Habitacion doble queen">
+                        <img class="w-full h-screen object-cover pane-ltr" src="{{asset('images/habitaciones/habitacion-estandar-triple-03.jpg')}}" alt="Habitacion doble queen">
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                 </div>
                 <div class="w-1/2">
                     <div class="w-full h-screen">
-                        <img class="w-full h-screen object-cover" src="{{asset('images/habitaciones/habitacion-estandar-king-size-03.jpg')}}" alt="Habitacion doble queen">
+                        <img class="w-full h-screen object-cover pane-ltr" src="{{asset('images/habitaciones/habitacion-estandar-king-size-03.jpg')}}" alt="Habitacion doble queen">
                     </div>
                 </div>
             </div>
@@ -181,7 +181,7 @@
                 </div>
                 <div class="w-1/2">
                     <div class="w-full h-screen">
-                        <img class="w-full h-screen object-cover" src="{{asset('images/habitaciones/habitacion-estandar-queen-02.jpg')}}" alt="Habitacion doble queen">
+                        <img class="w-full h-screen object-cover pane-ltr" src="{{asset('images/habitaciones/habitacion-estandar-queen-02.jpg')}}" alt="Habitacion doble queen">
                     </div>
                 </div>
             </div>
@@ -218,7 +218,7 @@
                 </div>
                 <div class="w-1/2">
                     <div class="w-full h-screen">
-                        <img class="w-full h-screen object-cover" src="{{asset('images/habitaciones/habitacion-doble-sencilla-02.jpg')}}" alt="Habitacion doble queen">
+                        <img class="w-full h-screen object-cover pane-ltr" src="{{asset('images/habitaciones/habitacion-doble-sencilla-02.jpg')}}" alt="Habitacion doble queen">
                     </div>
                 </div>
             </div>
@@ -256,7 +256,7 @@
                 </div>
                 <div class="w-1/2">
                     <div class="w-full h-screen">
-                        <img class="w-full h-screen object-cover" src="{{asset('images/habitaciones/habitacion-familiar-06.jpg')}}" alt="Habitacion doble queen">
+                        <img class="w-full h-screen object-cover pane-ltr" src="{{asset('images/habitaciones/habitacion-familiar-06.jpg')}}" alt="Habitacion doble queen">
                     </div>
                 </div>
             </div>
