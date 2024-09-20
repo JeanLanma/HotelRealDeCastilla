@@ -28,7 +28,9 @@
                     </ul>
 
                     <div>
-                        <button class="text-xs font-semibold border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Como llegar</button>
+                        <a target="_blank" href="https://maps.app.goo.gl/fuLoX8BfJxHLgATA8">
+                            <button class="text-xs font-semibold border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Como llegar</button>
+                        </a>
                     </div>
 
                 </div>
