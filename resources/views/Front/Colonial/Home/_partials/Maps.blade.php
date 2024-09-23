@@ -21,7 +21,7 @@
                             33 3614 7675 & 33 3113 1561
                         </li>
                         <li class="mt-8">
-                            EMAIL
+                            <a href="mailto:reservaciones@hotelrealdecastilla.com.mx" class="hover:text-secondary-orange hover:cursor-pointer">EMAIL</a>
                             <br>
                             reservaciones@hotelrealdecastilla.com.mx
                         </li>

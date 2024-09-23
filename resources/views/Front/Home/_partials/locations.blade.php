@@ -40,7 +40,7 @@
             </h2>
 
             <p class="text-xl font-medium text-primary-blue ">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec finibus neque, eleifend enim. Sed eget leo volutpat, convallis diam sed, bibendum augue. Praesent.
+                Siente la tranquilidad al hospedarte en Hotel Real de Castilla, un espacio acogedor, con un servicio cálido y cordial, en el centro histórico de Guadalajara.
             </p>
 
             <div>

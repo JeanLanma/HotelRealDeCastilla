@@ -15,6 +15,7 @@ export default {
         'acent-blue': "#002DB3",
         'golden-yellow': "#E0B973",
         'primary-orange': "#B35300",
+        'secondary-orange': "#FF7600",
         'primary-dark': "#1C1C1C",
         'primary-gray': "#A3A3A3",
         'primary-light': "#F9F9F9",
