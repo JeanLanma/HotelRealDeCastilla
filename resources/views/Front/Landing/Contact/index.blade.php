@@ -140,5 +140,31 @@
 </footer>
 @endsection
 
-@section('js-header')
+@section('js')
+<script>
+const CleanInputErrors = (errorEl, errorEl2, delay = 0, classToRemove = null) => {
+    errorEl = document.getElementById(errorEl);
+    errorEl2 = document.getElementById(errorEl2);
+    ClassToRemove = classToRemove ?? 'border-red-500';
+    
+    if(errorEl == null || errorEl2 == null){
+        return;
+    }
+
+    setTimeout(() => {
+        if(errorEl){
+            errorEl.style.display = 'none';
+        }
+        if(errorEl2 && errorEl2.classList.contains(ClassToRemove)){
+            errorEl2.classList.remove(ClassToRemove);
+            
+        }
+        console.log(`Error element: cleaned`);
+    }, delay);
+}
+
+CleanInputErrors('error-name', 'name', 6000);
+CleanInputErrors('error-email', 'email', 6000);
+CleanInputErrors('error-message', 'message', 6000);
+</script>
 @endsection

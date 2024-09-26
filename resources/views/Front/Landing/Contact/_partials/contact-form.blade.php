@@ -43,23 +43,33 @@
             </div>
 
             <div class="w-5/12">
-                <form action="#">
+                <form action="{{route('contact.store')}}" method="post">
+                    @csrf
                     <div class="font-playfair font-medium text-xl text-primary-blue flex flex-col gap-y-6">
                         <div class="flex flex-col">
                             <label for="name">Nombre</label>
-                            <input type="text" name="name" id="name" class="border border-primary-blue/75 px-2 py-3">
+                            <input type="text" name="name" id="name" value="{{ old('name') }}" class="border border-primary-blue/75 px-2 py-3 @error('name') border-red-500 @enderror">
+                            @error('name')
+                                <span id="error-name" class="text-base font-bold text-red-600">¡Por favor llene este campo!</span>
+                            @enderror
                         </div>
                         <div class="flex flex-col">
                             <label for="email">Correo electrónico</label>
-                            <input type="text" name="email" id="email" class="border border-primary-blue/75 px-2 py-3">
+                            <input type="text" name="email" id="email" value="{{ old('email') }}" class="border border-primary-blue/75 px-2 py-3 @error('email') border-red-500 @enderror">
+                            @error('email')
+                                <span  id="error-email" class="text-base font-bold text-red-600">Este campo es necesario, y debe ser un correo valido</span>
+                            @enderror
                         </div>
                         <div class="flex flex-col">
                             <label for="message">Mensaje</label>
-                            <textarea name="message" id="message" class="border border-primary-blue/75 px-2 py-3" rows="8"></textarea>
+                            <textarea name="message" id="message" class="border border-primary-blue/75 px-2 py-3 @error('message') border-red-500 @enderror" rows="8">{{ old('message') }}</textarea>
+                            @error('message')
+                                <span  id="error-message" class="text-base font-bold text-red-600">Este campo es necesario</span>
+                            @enderror
                         </div>
 
                         <div class="w-full flex justify-end">
-                            <button class="rounded-md bg-golden-yellow font-sans text-white font-bold p-4">
+                            <button type="submit" class="rounded-md bg-golden-yellow font-sans text-white font-bold p-4">
                                 Enviar
                             </button>
                         </div>

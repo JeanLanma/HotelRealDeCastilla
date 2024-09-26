@@ -1,14 +1,14 @@
 <?php
 
+use App\Http\Controllers\Admin\Contact\ContactController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('Front.Home.index');
 })->name('home');
 
-Route::get('contact', function () {
-    return view('Front.Landing.Contact.index');
-})->name('contact');
+Route::get('contact',[ContactController::class, 'index'])->name('contact');
+Route::post('contact',[ContactController::class, 'store'])->name('contact.store');
 
 Route::get('/hotel-real-de-castilla-colonial', function () {
     return view('Front.Colonial.Home.index');
