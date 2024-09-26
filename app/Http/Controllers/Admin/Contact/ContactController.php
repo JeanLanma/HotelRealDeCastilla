@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin\Contact;
 
 use App\Http\Controllers\Controller;
+use App\Services\Email\SendContactFormService;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -19,7 +20,12 @@ class ContactController extends Controller
             'email' => 'required|email',
             'message' => 'required',
         ]);
-        return dd($request->all());
+        SendContactFormService::send($request->all());
+        return dd($request->all(), 'Message sent successfully');
         return redirect()->back()->with('success', 'Message sent successfully');
+    }
+
+    public function showEmail() {
+        return view('emails.contact-email');
     }
 }

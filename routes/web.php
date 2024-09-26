@@ -9,6 +9,7 @@ Route::get('/', function () {
 
 Route::get('contact',[ContactController::class, 'index'])->name('contact');
 Route::post('contact',[ContactController::class, 'store'])->name('contact.store');
+Route::get('show-email',[ContactController::class, 'showEmail'])->name('show.email');
 
 Route::get('/hotel-real-de-castilla-colonial', function () {
     return view('Front.Colonial.Home.index');
