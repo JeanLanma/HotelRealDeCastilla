@@ -167,4 +167,19 @@ CleanInputErrors('error-name', 'name', 6000);
 CleanInputErrors('error-email', 'email', 6000);
 CleanInputErrors('error-message', 'message', 6000);
 </script>
+@if (session('success'))
+    <script>
+        Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: "Hemos recibido tu mensaje de manera satisfactoria",
+        showConfirmButton: false,
+        timer: 2000
+    });
+    </script>
+    
+@endif
+<script>
+
+</script>
 @endsection

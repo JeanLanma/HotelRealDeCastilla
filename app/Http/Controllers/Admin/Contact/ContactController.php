@@ -21,7 +21,6 @@ class ContactController extends Controller
             'message' => 'required',
         ]);
         SendContactFormService::send($request->all());
-        return dd($request->all(), 'Message sent successfully');
         return redirect()->back()->with('success', 'Message sent successfully');
     }
 
