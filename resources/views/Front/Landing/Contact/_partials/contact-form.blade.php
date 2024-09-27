@@ -50,7 +50,7 @@
                             <label for="name">Nombre</label>
                             <input type="text" name="name" id="name" value="{{ old('name') }}" class="border border-primary-blue/75 px-2 py-3 @error('name') border-red-500 @enderror">
                             @error('name')
-                                <span id="error-name" class="text-base font-bold text-red-600">¡Por favor llene este campo!</span>
+                                <span id="error-name" class="text-base font-bold text-red-600">Este campo es necesario</span>
                             @enderror
                         </div>
                         <div class="flex flex-col">
