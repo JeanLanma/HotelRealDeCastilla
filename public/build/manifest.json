@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-o9TjB7am.css",
+    "file": "assets/app-tpaReV_n.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -8,10 +8,17 @@
     "file": "assets/hero-home-DnF_zAEd.png",
     "src": "resources/css/images/hero-home.png"
   },
+  "resources/css/images/hero-nuovo.png": {
+    "file": "assets/hero-nuovo-BeIEcYNE.png",
+    "src": "resources/css/images/hero-nuovo.png"
+  },
   "resources/js/app.js": {
-    "file": "assets/app-C1-XIpUa.js",
+    "file": "assets/app-DhiRokvy.js",
     "name": "app",
     "src": "resources/js/app.js",
-    "isEntry": true
+    "isEntry": true,
+    "css": [
+      "assets/app-B-gXXBrj.css"
+    ]
   }
 }
