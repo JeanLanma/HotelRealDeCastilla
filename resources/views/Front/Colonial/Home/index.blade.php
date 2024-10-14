@@ -4,7 +4,7 @@
 
 @section('content')
 <!-- Top Menu -->
-@include('Front._partials.menu-hotels')
+@include('Front.Colonial._partials.menu-colonial')
 
 <!-- Hero -->
 @include('Front.Colonial.Home._partials.Hero')

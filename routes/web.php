@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\Contact\ContactController;
+use App\Http\Controllers\Hotels\HotelController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -14,6 +15,8 @@ Route::get('show-email',[ContactController::class, 'showEmail'])->name('show.ema
 Route::get('/hotel-real-de-castilla-colonial', function () {
     return view('Front.Colonial.Home.index');
 })->name('home.colonial');
+
+Route::get('/hotel-real-de-castilla-colonial/rooms', [HotelController::class, 'ColonialRooms'])->name('hotel.colonial.rooms');
 
 Route::get('/hotel-real-de-castilla-nuovo', function () {
     return view('Front.Nuovo.Home.index');
