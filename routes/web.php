@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\Contact\ContactController;
+use App\Http\Controllers\Booking\DirectBookingController;
 use App\Http\Controllers\Hotels\HotelController;
 use Illuminate\Support\Facades\Route;
 
@@ -21,3 +22,5 @@ Route::get('/hotel-real-de-castilla-colonial/rooms', [HotelController::class, 'C
 Route::get('/hotel-real-de-castilla-nuovo', function () {
     return view('Front.Nuovo.Home.index');
 })->name('home.nuovo');
+
+Route::get('/direct-booking', [DirectBookingController::class, 'GoToBookingEngine'])->name('direct.booking');

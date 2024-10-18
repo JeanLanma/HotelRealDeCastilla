@@ -5,7 +5,7 @@
             <div class="flex justify-between items-center px-12 py-3">
 
                 <div>
-                    <a href="{{ route('home.colonial') }}" class="block w-56 px-4">
+                    <a href="{{ route('home.nuovo') }}" class="block w-56 px-4">
                         <img class="w-full" src="{{ asset('images/logo-texto.png') }}" alt="Logo Hotel" />
                     </a>
                 </div>
@@ -13,7 +13,7 @@
                     <nav>
                         <ul class="flex justify-between gap-x-4 text-white font-normal 2xl:text-base text-sm leading-6">
                             <li class="px-1 border-b-2 font-semibold">
-                                <a href="{{ route('home.colonial') }}">Inicio</a>
+                                <a href="{{ route('home.nuovo') }}">Inicio</a>
                             </li>
                             <li class="px-1 hover:border-b-2">
                                 <a href="{{ route('hotel.colonial.rooms') }}">Habitaciones</a>
