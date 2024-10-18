@@ -3,7 +3,7 @@
         <div class="w-full max-w-7xl flex justify-between items-center relative top-0 left-0 py-0 2xl:px-12 sm:h-28">
             <div>
                 <div class="bg-primary-blue h-[11.4rem] absolute -top-4 flex items-center rounded-b-[3rem]">
-                    <a href="#" class="block w-72 px-4">
+                    <a href="{{ route('home') }}" class="block w-72 px-4">
                         <img class="w-full" src="{{ asset('images/logo-texto.png') }}" alt="Logo Hotel" />
                     </a>
                 </div>
