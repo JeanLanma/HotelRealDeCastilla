@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="pt-20 mx-auto rounde-md">
-            <button class="py-4 px-10 rounded-lg bg-acent-blue text-white font-bold uppercase flex items-center">
+            <button onclick="moveToElement('locations', 100)" class="py-4 px-10 rounded-lg bg-acent-blue text-white font-bold uppercase flex items-center">
                 <div class="w-6">
                     <img class="w-full" src="{{asset('icons/book-now.svg')}}" alt="Book now icon">
                 </div>

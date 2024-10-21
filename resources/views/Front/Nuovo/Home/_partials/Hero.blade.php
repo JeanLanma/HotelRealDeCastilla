@@ -67,7 +67,7 @@
                             </div>
 
                             <div>
-                                <button class="bg-primary-orange text-white font-semibold py-5 px-10 rounded-[5px] hover:bg-primary-dark ring-2 ring-primary-orange ring-inset transition-colors duration-150">
+                                <button onclick="window.location.href = '{{ route('direct.booking') }}'" class="bg-primary-orange text-white font-semibold py-5 px-10 rounded-[5px] hover:bg-primary-dark ring-2 ring-primary-orange ring-inset transition-colors duration-150">
                                     Book now
                                 </button>
                             </div>

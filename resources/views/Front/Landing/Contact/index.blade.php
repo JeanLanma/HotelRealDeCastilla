@@ -38,7 +38,7 @@
                     <div>
                         <ul class="flex flex-col gap-1 font-medium">
                             <li>
-                                <a href="#">
+                                <a href="{{ route('home') }}">
                                     Inicio
                                 </a>
                             </li>
@@ -53,7 +53,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="{{ route('contact') }}">
                                     Contacto
                                 </a>
                             </li>
@@ -115,7 +115,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="hidden">
                     <div class="mb-5">
                         <strong>
                             Newsletter

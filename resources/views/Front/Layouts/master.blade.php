@@ -26,6 +26,9 @@
     @endif
     </title>
 
+  <script>
+    const ROOT_URL = '{{ url('/') }}';
+  </script>
   @vite('resources/css/app.css')
   @yield('css')
   @yield('js-header')

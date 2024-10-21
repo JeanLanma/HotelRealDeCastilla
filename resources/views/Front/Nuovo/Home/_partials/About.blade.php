@@ -14,7 +14,7 @@
                         Disfruta de la arquitectura colonial del siglo XVII y el confort del siglo XXI que te ofrece Hotel Real de Castilla, el lugar ideal para pasar un rato agradable con tu familia, un viaje de negocios o unas vacaciones románticas con tu pareja. Donde por su excelente ubicación tendrás de todo lo que el centro histórico de Guadalajara te ofrece a unos cuantos pasos; como la Catedral de Guadalajara, el Hospicio Cabañas o el Teatro Degollado que son algunos de los edificios emblemáticos que tendrás cerca.
                     </p>
                     <div>
-                        <button class="text-xs uppercase border border-black rounded-full px-4 py-2 hover:text-white hover:bg-black transition-colors duration-200">Reservar ahora</button>
+                        <button onclick="window.location.href = '{{ route('direct.booking') }}'" class="text-xs uppercase border border-black rounded-full px-4 py-2 hover:text-white hover:bg-black transition-colors duration-200">Reservar ahora</button>
                     </div>
                 </div>
             </div>

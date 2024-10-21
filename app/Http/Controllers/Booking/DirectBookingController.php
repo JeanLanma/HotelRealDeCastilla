@@ -9,6 +9,6 @@ class DirectBookingController extends Controller
 {
     public function GoToBookingEngine()
     {
-        return redirect()->back();
+        return redirect()->route('contact');
     }
 }
