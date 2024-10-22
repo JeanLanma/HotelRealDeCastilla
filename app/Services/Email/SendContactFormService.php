@@ -14,6 +14,6 @@ class SendContactFormService
 
     public static function GetAdministrativeEmails()
     {
-        return ['desarrollo.software@pcbttroniks.com'];
+        return ['desarrollo.software@pcbttroniks.com', 'reservaciones@hotelrealdecastilla.com.mx'];
     }
 }

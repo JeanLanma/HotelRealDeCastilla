@@ -1,4 +1,8 @@
 {
+  "__commonjsHelpers-Cpj98o6Y.js": {
+    "file": "assets/_commonjsHelpers-Cpj98o6Y.js",
+    "name": "_commonjsHelpers"
+  },
   "resources/css/app.css": {
     "file": "assets/app-tpaReV_n.css",
     "src": "resources/css/app.css",
@@ -11,6 +15,51 @@
   "resources/css/images/hero-nuovo.png": {
     "file": "assets/hero-nuovo-BeIEcYNE.png",
     "src": "resources/css/images/hero-nuovo.png"
+  },
+  "resources/js/Alerts/successEmail.js": {
+    "file": "assets/successEmail-WK_Jm3CE.js",
+    "name": "successEmail",
+    "src": "resources/js/Alerts/successEmail.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ]
+  },
+  "resources/js/Booking/DirectBooking.js": {
+    "file": "assets/DirectBooking-Bei_uIsY.js",
+    "name": "DirectBooking",
+    "src": "resources/js/Booking/DirectBooking.js",
+    "isEntry": true
+  },
+  "resources/js/DatePicker/DatePicker.js": {
+    "file": "assets/DatePicker-BfQK65P-.js",
+    "name": "DatePicker",
+    "src": "resources/js/DatePicker/DatePicker.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ],
+    "css": [
+      "assets/DatePicker-Cz6DEdb5.css"
+    ]
+  },
+  "resources/js/Home/HomeAnimations.js": {
+    "file": "assets/HomeAnimations-DXegsBlC.js",
+    "name": "HomeAnimations",
+    "src": "resources/js/Home/HomeAnimations.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ]
+  },
+  "resources/js/Home/HomeRoomsCarousel.js": {
+    "file": "assets/HomeRoomsCarousel-leJbMl9P.js",
+    "name": "HomeRoomsCarousel",
+    "src": "resources/js/Home/HomeRoomsCarousel.js",
+    "isEntry": true,
+    "css": [
+      "assets/HomeRoomsCarousel-EKmKsbKj.css"
+    ]
   },
   "resources/js/app.js": {
     "file": "assets/app-DhiRokvy.js",
