@@ -1,12 +1,12 @@
-<div class="bg-[url('images/hero-home.png')] bg-cover w-full min-h-screen">
-    <div class="mx-auto max-w-7xl px-12 flex flex-col justify-center items-start">
-        <div class="mt-[17rem]">
+<div class="bg-[url('images/hero-home.png')] bg-contain bg-no-repeat w-full min-h-screen">
+    <div class="mx-auto max-w-7xl px-24 flex flex-col justify-center items-start">
+        <div class="mt-60">
             <div class="text-white">
                 <p class="text-4xl">
                     Bienvenido a
                 </p>
                 <h1 class="font-playfair font-bold">
-                    <span class="text-[7rem] tracking-widest">
+                    <span class="text-[6.2rem] tracking-widest leading-snug">
                         Real de Castilla 
                     </span>
                     
@@ -22,7 +22,7 @@
                 <div class="w-6">
                     <img class="w-full" src="{{asset('icons/book-now.svg')}}" alt="Book now icon">
                 </div>
-                <p class="ml-4 text-xl">
+                <p class="ml-4 text-lg">
                     Reserva ahora
                 </p>
             </button>
