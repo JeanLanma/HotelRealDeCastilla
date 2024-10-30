@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Pagina no encontrada - Hotel Real de Castilla</title>
+        <title>Error en la solicitud - Hotel Real de Castilla</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -25,10 +25,10 @@
         <div class="h-screen w-screen bg-gray-100 flex justify-center items-center">
             <div class="container flex flex-col md:flex-row items-center justify-center px-5 text-gray-700">
                 <div class="max-w-md">
-                    <div class="text-5xl font-dark font-bold">404</div>
+                    <div class="text-5xl font-dark font-bold">500</div>
                     <p
                     class="text-2xl md:text-3xl font-light leading-normal mt-4"
-                    >Pagina no encontrada</p>
+                    >Ocurrio un error inesperado</p>
                 <p class="mb-8 mt-4">Nada mas que mostrar por aqui, puedes visitar nuestra pagina principal donde hay muchas cosas mas para ver.</p>
                 
                 <a href="{{ route('home') }}">
