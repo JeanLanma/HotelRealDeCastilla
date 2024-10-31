@@ -6,13 +6,13 @@
                     Bienvenido a
                 </p>
                 <h1 class="font-playfair font-bold">
-                    <span class="text-7xl xl:text-[6.2rem] tracking-widest leading-snug">
+                    <span class="text-7xl 2xl:text-[6.2rem] tracking-widest leading-snug">
                         Real de Castilla 
                     </span>
                     
-                    <small class="block lg:text-4xl xl:text-5xl tracking-widest -mt-4 xl:-mt-8">H O T E L E S</small>
+                    <small class="block lg:text-4xl 2xl:text-5xl tracking-widest -mt-4 2xl:-mt-8">H O T E L E S</small>
                 </h1>
-                <p class="xl:text-2xl font-normal xl:leading-6 xl:pt-4">
+                <p class="2xl:text-2xl font-normal 2xl:leading-6 xl:pt-4">
                     Reserva en línea y conoce el <br> centro histórico de Guadalajara
                 </p>
             </div>
