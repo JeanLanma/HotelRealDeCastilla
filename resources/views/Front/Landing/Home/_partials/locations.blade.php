@@ -1,14 +1,14 @@
 <div id="locations" class="mx-auto max-w-7xl lg:px-16 2xl:px-12 flex flex-col justify-center items-start">
 
-<div class="mt-16 2xl:mt-40 flex flex-row justify-between items-center">
+<div class="mt-16 xl:mt-40 lg:flex lg:flex-row justify-between items-center">
     <div>
-        <div class="w-96 2xl:w-[33rem]">
-            <img class="pulse-on-hover" src="{{asset('images/Visual-Col.jpg')}}" alt="Hotel Real de Castilla Colonial">
+        <div class="mx-auto w-80 sm:w-96 xl:w-[33rem]">
+            <img class="pulse-on-hover shadow" src="{{asset('images/Visual-Col.jpg')}}" alt="Hotel Real de Castilla Colonial">
         </div>
     </div>
-    <div class="ml-14 2x:ml-20">
-        <div class="flex flex-col gap-8">
-            <h2 class="text-primary-blue text-4xl 2xl:text-5xl font-playfair font-bold tracking-wide">
+    <div class="mt-4 sm:mt-0 ml-6 sm:ml-14 2x:ml-20">
+        <div class="flex flex-col gap-3 sm:gap-8">
+            <h2 class="text-primary-blue text-3xl lg:text-4xl 2xl:text-5xl font-playfair font-bold sm:tracking-wide">
                 <p>Hotel Real De Castilla</p>
                 <span class="text-golden-yellow leading-relaxed">Colonial</span>
             </h2>
@@ -26,15 +26,15 @@
     </div>
 </div>
 
-<div class="mt-16 2xl:mt-40 flex flex-row-reverse justify-between items-center">
+<div class="mt-16 xl:mt-40 lg:flex lg:flex-row-reverse justify-between items-center">
     <div>
-        <div class="w-96 2xl:w-[33rem]">
-            <img class="pulse-on-hover" src="{{asset('images/Visual-Col-nova.jpg')}}" alt="Hotel Real de Castilla Colonial">
+        <div class="mx-auto w-80 sm:w-96 xl:w-[33rem]">
+            <img class="pulse-on-hover shadow" src="{{asset('images/Visual-Col-nova.jpg')}}" alt="Hotel Real de Castilla Colonial">
         </div>
     </div>
-    <div class="mr-14 2x:mr-20">
-        <div class="flex flex-col gap-8">
-            <h2 class="text-primary-blue text-4xl 2xl:text-5xl font-playfair font-bold tracking-wide">
+    <div class="mt-4 sm:mt-0 ml-6 sm:ml-0 sm:mr-14 2x:mr-20">
+        <div class="flex flex-col gap-3 sm:gap-8">
+            <h2 class="text-primary-blue text-3xl lg:text-4xl 2xl:text-5xl font-playfair font-bold sm:tracking-wide">
                 <p>Hotel Real De Castilla</p>
                 <span id="NuovoTextElement" class="text-golden-yellow leading-relaxed bounce-on-hover">Nuovo</span>
             </h2>

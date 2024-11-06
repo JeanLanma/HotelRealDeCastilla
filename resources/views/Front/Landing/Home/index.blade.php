@@ -13,7 +13,7 @@
 </section>
 
 <section>
-    @include('Front.Home._partials.locations')
+    @include('Front.Landing.Home._partials.locations')
 </section>
 
 <section>
