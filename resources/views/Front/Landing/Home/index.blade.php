@@ -17,11 +17,11 @@
 </section>
 
 <section>
-    @include('Front.Home._partials.about')
+    @include('Front.Landing.Home._partials.about')
 </section>
 
 <section>
-    @include('Front.Home._partials.rooms')
+    @include('Front.Landing.Home._partials.rooms')
 </section>
 
 <section>
