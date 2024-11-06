@@ -43,7 +43,7 @@
                     <button class="px-4 py-2 text-white border border-white uppercase">Reservar</button>
                 </div>    
                 <div>
-                    <img class="hover:text-primary-gray hover:bg-primary-dark/70" src="{{ asset('icons/menu.svg') }}" alt="Icono menu">
+                    <img id="mobile-menu-button" class="hover:text-primary-gray hover:bg-primary-dark/70" src="{{ asset('icons/menu.svg') }}" alt="Icono menu">
                 </div>    
             </div>
         </div>

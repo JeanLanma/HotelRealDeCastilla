@@ -195,6 +195,18 @@ const moveToElement = (element, addTopOffset = 0) => {
     });
 }
 </script>
-
 @vite('resources/js/Home/HomeAnimations.js')
+@endsection
+
+@section('js')
+<script>
+    const ToggleMobileMenu = () => {
+        const mobileMenu = document.getElementById('mobile-menu-bg');
+        mobileMenu.classList.toggle('hidden');
+    }
+    
+    document.getElementById('mobile-menu-button').addEventListener('click', ToggleMobileMenu);
+    document.getElementById('mobile-menu-bg').addEventListener('click', ToggleMobileMenu);
+    document.getElementById('mobile-menu-aside').addEventListener('click', (e) => e.stopPropagation());
+</script>
 @endsection
