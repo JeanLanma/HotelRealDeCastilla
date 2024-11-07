@@ -79,7 +79,7 @@
 
 @endsection
 @section('js')
-@vite('resources/js/Booking/DirectBooking.js')
+    @vite('resources/js/Booking/DirectBooking.js')
     @vite('resources/js/DatePicker/DatePicker.js')
     @vite('resources/js/Home/HomeRoomsCarousel.js')
 @endsection

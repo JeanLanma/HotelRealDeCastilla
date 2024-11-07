@@ -1,7 +1,7 @@
 <section>
-    <div class="bg-[url('images/hero-home.png')] bg-cover w-full h-calc-menu flex items-end">
+    <div class="bg-[url('images/hero-home.png')] bg-cover w-full h-calc-menu flex">
         
-        <div class="max-w-7xl px-7 lg:px-14 mx-auto w-full flex flex-col justify-end gap-y-16 lg:gap-y-16 2xl:gap-y-36">            
+        <div class="max-w-7xl px-7 lg:px-14 mx-auto w-full flex flex-col justify-between mt-24 lg:mt-56">            
             <div>
                 <div class="text-white">
                     <h1 class="text-2xl font-bold tracking-wide mb-7">
@@ -13,7 +13,7 @@
                 </div>
             </div>
 
-            <div class="self-center -mb-12">
+            <div class="self-center -mb-12 sm:mb-0">
                 <div>
                     <div class="text-white bg-primary-dark w-64 md:w-[50rem] text-xs font-semibold tracking-wide px-9 py-7">
                         <div class="flex flex-col sm:flex-row justify-center items-center gap-x-14">
