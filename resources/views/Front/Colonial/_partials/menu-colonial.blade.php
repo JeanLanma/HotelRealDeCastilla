@@ -1,5 +1,5 @@
 <header>
-    <div class="bg-primary-dark w-full">
+    <div id="colonial-menu-desktop" class="hidden sm:block bg-primary-dark w-full">
         <div class="max-w-7xl mx-auto">
 
             <div class="flex justify-between items-center px-12 py-3">
@@ -41,4 +41,50 @@
 
         </div>
     </div>
+    <div id="colonial-menu-mobile" class="sm:hidden bg-primary-dark w-full px-6 py-3">
+        <div class="flex justify-between items-center">
+            <div class="w-56">
+                <img class="w-full" src="{{ asset('images/logo-texto.png') }}" alt="Logo Hotel Real de Castillas" />
+            </div>
+            <div class="w-16">
+                <img id="colonial-menu-mobile-button" class="w-full hover:bg-white/50" src="{{ asset('icons/menu.svg') }}" alt="Icono menu">   
+            </div>
+        </div>
+    </div>
 </header>
+<div id="colonial-mobile-menu-bg" class="hidden w-full min-h-screen bg-black/30 flex justify-end absolute">
+    <aside id="colonial-mobile-menu-aside" class="bg-primary-dark w-72 min-h-screen shadow">
+        <div>
+            <ul class="text-white text-center font-light uppercase">
+                <li class="border-b p-4 hover:text-primary-gray hover:bg-white/25">
+                    <a href="#">
+                        <div>
+                            Inicio
+                        </div>
+                    </a>
+                </li>
+                <li class="border-b p-4 hover:text-primary-gray hover:bg-white/25">
+                    <a href="#">
+                        <div>
+                            Habitaciones
+                        </div>
+                    </a>
+                </li>
+                <li class="border-b p-4 hover:text-primary-gray hover:bg-white/25">
+                    <a href="#">
+                        <div>
+                            Servicios
+                        </div>
+                    </a>
+                </li>
+                <li class="border-b p-4 hover:text-primary-gray hover:bg-white/25">
+                    <a href="#">
+                        <div>
+                            Contacto
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+</div>

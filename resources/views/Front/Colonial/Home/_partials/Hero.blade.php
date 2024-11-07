@@ -1,25 +1,24 @@
 <section>
-    <!-- <div class="bg-[url('images/hero-home.png')] bg-cover w-full min-h-screen  flex items-end"> -->
-    <div class="bg-[url('images/hero-home.png')] bg-cover w-full h-calc-menu  flex items-end">
+    <div class="bg-[url('images/hero-home.png')] bg-cover w-full h-calc-menu flex items-end">
         
-        <div class="max-w-7xl px-14 mx-auto w-full flex flex-col justify-end gap-y-16 2xl:gap-y-36">            
+        <div class="max-w-7xl px-7 lg:px-14 mx-auto w-full flex flex-col justify-end gap-y-16 lg:gap-y-16 2xl:gap-y-36">            
             <div>
                 <div class="text-white">
                     <h1 class="text-2xl font-bold tracking-wide mb-7">
                         Hotel real de Castilla Colonial
                     </h1>
-                    <p class="text-lg font-playfair font-bold w-60">
+                    <p class="lg:text-lg lg:font-playfair lg:font-bold w-60">
                         Reserva en línea y conoce el centro histórico de Guadalajara
                     </p>
                 </div>
             </div>
 
-            <div class="self-center">
+            <div class="self-center -mb-12">
                 <div>
-                    <div class="text-white bg-primary-dark w-[50rem] text-xs font-semibold tracking-wide px-9 py-7">
-                        <div class="flex justify-center items-center gap-x-14">
+                    <div class="text-white bg-primary-dark w-64 md:w-[50rem] text-xs font-semibold tracking-wide px-9 py-7">
+                        <div class="flex flex-col sm:flex-row justify-center items-center gap-x-14">
                         
-                            <div id="GuestsTrigger" class="flex items-start gap-4 hover:cursor-pointer hover:text-primary-orange">
+                            <div id="GuestsTrigger" class="w-full mb-10 sm:mb-0 sm:w-auto flex items-start gap-4 hover:cursor-pointer hover:text-primary-orange">
                                 <div>
                                     <img src="{{asset('icons/guest.svg')}}" alt="Icono Huesped">
                                 </div>
@@ -34,7 +33,7 @@
                                 </div>
                             </div>
                             
-                            <div id="DateCheckInTrigger" class="flex items-start gap-4 hover:cursor-pointer hover:bg-white/30 transition-colors duration-200">
+                            <div id="DateCheckInTrigger" class="w-full mb-10 sm:mb-0 sm:w-auto flex items-start gap-4 hover:cursor-pointer hover:bg-white/30 transition-colors duration-200">
                                 <div>
                                     <img src="{{asset('icons/calendar.svg')}}" alt="Icono Huesped">
                                 </div>
@@ -50,7 +49,7 @@
                                 </div>
                             </div>
 
-                            <div id="DateCheckOutTrigger" class="flex items-start gap-4">
+                            <div id="DateCheckOutTrigger" class="w-full mb-10 sm:mb-0 sm:w-auto flex items-start gap-4">
                                 <div>
                                     <img src="{{asset('icons/calendar.svg')}}" alt="Icono Huesped">
                                 </div>
