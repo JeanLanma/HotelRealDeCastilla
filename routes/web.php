@@ -6,9 +6,6 @@ use App\Http\Controllers\Hotels\HotelController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('Front.Home.index');
-})->name('home');
-Route::get('/mf', function () {
     return view('Front.Landing.Home.index');
 })->name('home');
 

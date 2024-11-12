@@ -1,7 +1,7 @@
 <section>
     <div class="max-w-7xl mx-auto px-14 py-20">
-        <div class="flex justify-between items-start gap-x-14 min-h-screen">
-            <div class="w-1/2 mt-3">
+        <div class="flex flex-col md:flex-row justify-between items-start gap-x-14 min-h-screen">
+            <div class="md:w-1/2 mt-3">
                 <div>
                     <div class="flex items-baseline text-[.6rem] text-primary-gray mb-7">
                         <span><img src="{{asset('icons/Line.svg')}}" alt=""></span>
@@ -18,8 +18,8 @@
                     </div>
                 </div>
             </div>
-            <div class="w-1/2">
-                <div class="p-3">
+            <div class="md:w-1/2">
+                <div class="md:p-3 mt-6 md:mt-0">
                     <img src="{{asset('images/conoce-guadalajara.jpg')}}" alt="Conoce Guadalajara">
                 </div>
             </div>

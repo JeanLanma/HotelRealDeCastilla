@@ -13,3 +13,21 @@ const swiper = new Swiper('.RoomsSwiper', {
         prevEl: '.prevRoomEl',
     },
 });
+
+const ServicesSwiper = new Swiper('.ServicesSwiper', {
+    loop: true,
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+        },
+    }
+});

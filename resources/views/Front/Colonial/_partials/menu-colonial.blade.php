@@ -57,7 +57,7 @@
         <div>
             <ul class="text-white text-center font-light uppercase">
                 <li class="border-b p-4 hover:text-primary-gray hover:bg-white/25">
-                    <a href="#">
+                    <a href="{{ route('home.colonial') }}">
                         <div>
                             Inicio
                         </div>
@@ -78,7 +78,7 @@
                     </a>
                 </li>
                 <li class="border-b p-4 hover:text-primary-gray hover:bg-white/25">
-                    <a href="#">
+                    <a href="{{ route('contact') }}">
                         <div>
                             Contacto
                         </div>
