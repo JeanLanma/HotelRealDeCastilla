@@ -1,5 +1,5 @@
 <section>
-    <div class="bg-primary-light">
+    <div class="bg-primary-light w-full overflow-hidden">
         <div class="max-w-7xl mx-auto px-14 py-20">
             <div>
                 <div>
