@@ -2,13 +2,13 @@
     <div class="swiper-wrapper">
 
         <div class="swiper-slide">
-            <div class="flex flex-row-reverse justify-between items-start min-h-screen">
-                <div class="bg-primary-dark w-1/2 text-primary-light">
-                    <div class="w-full h-screen pl-20 pt-[6.2rem]">
+            <div class="flex flex-col-reverse sm:flex-row-reverse justify-between items-start min-h-screen">
+                <div class="bg-primary-dark sm:w-1/2 text-primary-light">
+                    <div class="w-full h-screen pl-7 pt-7 sm:pl-20 sm:pt-[6.2rem]">
 
                         <div class=" flex items-baseline text-[.6rem] text-primary-gray mb-6">
                             <span><img src="{{asset('icons/Line.svg')}}" alt=""></span>
-                            <p class="ml-3">4 Huespedes</p>
+                            <p class="ml-3">4s Huespedes</p>
                         </div>
                         
                         <h2 class="text-4xl font-semibold tracking-wide mb-[5rem] font-playfair">
@@ -30,9 +30,9 @@
 
                     </div>
                 </div>
-                <div class="w-1/2">
-                    <div class="w-full h-screen">
-                        <img class="w-full h-screen object-cover pane-ltr" src="{{asset('images/habitaciones/habitacion-doble-queen.png')}}" alt="Habitacion doble queen">
+                <div class="sm:w-1/2">
+                    <div class="w-full sm:h-screen">
+                        <img class="w-full sm:h-screen object-cover pane-ltr" src="{{asset('images/habitaciones/habitacion-doble-queen.png')}}" alt="Habitacion doble queen">
                     </div>
                 </div>
             </div>
