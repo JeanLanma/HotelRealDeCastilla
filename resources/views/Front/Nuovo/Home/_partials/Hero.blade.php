@@ -1,25 +1,24 @@
 <section>
-    <!-- <div class="bg-[url('images/hero-home.png')] bg-cover w-full min-h-screen  flex items-end"> -->
-    <div class="bg-[url('images/hero-nuovo.png')] bg-cover w-full h-calc-menu  flex items-end">
+    <div class="bg-[url('images/hero-nuovo.png')] bg-cover w-full h-calc-menu flex">
         
-        <div class="max-w-7xl px-14 mx-auto w-full flex flex-col justify-end gap-y-16 2xl:gap-y-36">            
+        <div class="max-w-7xl px-7 lg:px-14 mx-auto w-full flex flex-col justify-between mt-20 xl:mt-56">            
             <div>
                 <div class="text-white">
                     <h1 class="text-2xl font-bold tracking-wide mb-7">
-                        Hotel real de Castilla Nuovo
+                        Hotel Real de Castilla <span class="text-golden-yellow">Nuovo</span>
                     </h1>
-                    <p class="text-lg font-playfair font-bold w-60">
+                    <p class="lg:text-lg lg:font-playfair lg:font-bold w-64">
                         Reserva en línea y conoce el centro histórico de Guadalajara
                     </p>
                 </div>
             </div>
 
-            <div class="self-center">
+            <div class="self-center -mb-12 sm:mb-0">
                 <div>
-                    <div class="text-white bg-primary-dark w-[50rem] text-xs font-semibold tracking-wide px-9 py-7">
-                        <div class="flex justify-center items-center gap-x-14">
+                    <div class="text-white bg-primary-dark w-80 md:w-[50rem] text-xs font-semibold tracking-wide px-9 py-9 lg:py-7">
+                        <div class="flex flex-col sm:flex-row justify-center items-center gap-x-14">
                         
-                            <div id="GuestsTrigger" class="flex items-start gap-4 hover:cursor-pointer hover:text-primary-orange">
+                            <div id="GuestsTrigger" class="w-full mb-12 sm:mb-0 sm:w-auto flex items-center jus sm:items-start gap-4 hover:cursor-pointer hover:text-primary-orange">
                                 <div>
                                     <img src="{{asset('icons/guest.svg')}}" alt="Icono Huesped">
                                 </div>
@@ -34,7 +33,7 @@
                                 </div>
                             </div>
                             
-                            <div id="DateCheckInTrigger" class="flex items-start gap-4 hover:cursor-pointer hover:bg-white/30 transition-colors duration-200">
+                            <div id="DateCheckInTrigger" class="w-full mb-12 sm:mb-0 sm:w-auto flex items-start gap-4 hover:cursor-pointer hover:bg-white/30 transition-colors duration-200">
                                 <div>
                                     <img src="{{asset('icons/calendar.svg')}}" alt="Icono Huesped">
                                 </div>
@@ -50,7 +49,7 @@
                                 </div>
                             </div>
 
-                            <div id="DateCheckOutTrigger" class="flex items-start gap-4">
+                            <div id="DateCheckOutTrigger" class="w-full mb-12 sm:mb-0 sm:w-auto flex items-start gap-4">
                                 <div>
                                     <img src="{{asset('icons/calendar.svg')}}" alt="Icono Huesped">
                                 </div>
@@ -66,8 +65,8 @@
                                 </div>
                             </div>
 
-                            <div>
-                                <button onclick="window.location.href = '{{ route('direct.booking') }}'" class="bg-primary-orange text-white font-semibold py-5 px-10 rounded-[5px] hover:bg-primary-dark ring-2 ring-primary-orange ring-inset transition-colors duration-150">
+                            <div class="mt-3 sm:mt-0 w-full sm:w-auto">
+                                <button id="BookingWidgetBtn" class="w-full bg-primary-orange text-white font-semibold py-5 px-10 rounded-[5px] hover:bg-primary-dark ring-2 ring-primary-orange ring-inset transition-colors duration-150">
                                     Book now
                                 </button>
                             </div>

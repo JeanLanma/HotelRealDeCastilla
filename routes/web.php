@@ -16,6 +16,7 @@ Route::get('show-email',[ContactController::class, 'showEmail'])->name('show.ema
 Route::get('/hotel-real-de-castilla-colonial', [HotelController::class, 'ColonialHome'])->name('home.colonial');
 
 Route::get('/hotel-real-de-castilla-colonial/rooms', [HotelController::class, 'ColonialRooms'])->name('hotel.colonial.rooms');
+Route::get('/hotel-real-de-castilla-nuovo/rooms', [HotelController::class, 'ColonialRooms'])->name('hotel.nuovo.rooms');
 
 Route::get('/hotel-real-de-castilla-nuovo', function () {
     return view('Front.Nuovo.Home.index');

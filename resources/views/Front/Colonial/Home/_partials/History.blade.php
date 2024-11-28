@@ -12,7 +12,7 @@
                     </h4>
                 </div>
                 <p>
-                    Siente la alegría de conocer la historia de Guadalajara, de contemplar la belleza de <br> su arquitectura y de hospedarte en las comodidades que te ofrece Hotel Real de <br> Castilla Colonial.
+                    Siente la alegría de conocer la historia de Guadalajara, de contemplar la belleza de <br> su arquitectura y de hospedarte en las comodidades que te ofrece Hotel Real de <br class="hidden sm:block"> Castilla Colonial.
                 </p>
             </div>
         </div>

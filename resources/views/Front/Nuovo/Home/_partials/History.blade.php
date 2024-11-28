@@ -1,6 +1,6 @@
 <section>
     <div class="w-full bg-primary-bronze">
-        <div class="max-w-7xl mx-auto px-14 py-20">
+        <div class="max-w-7xl mx-auto px-7 sm:px-14 py-20">
             <div class="text-white flex flex-col justify-center mx-auto w-fit">
                 <div>
                     <div class="flex items-baseline text-[.6rem] text-primary-gray mb-7">
@@ -12,7 +12,7 @@
                     </h4>
                 </div>
                 <p>
-                    Siente la alegría de conocer la historia de Guadalajara, de contemplar la belleza de <br> su arquitectura y de hospedarte en las comodidades que te ofrece Hotel Real de <br> Castilla Colonial.
+                    Siente la alegría de conocer la historia de Guadalajara, de contemplar la belleza de <br> su arquitectura y de hospedarte en las comodidades que te ofrece Hotel Real de <br class="hidden sm:block"> Castilla Nuovo.
                 </p>
             </div>
         </div>

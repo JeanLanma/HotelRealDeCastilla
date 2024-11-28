@@ -145,3 +145,17 @@
         </div>
     </div>
 </footer>
+@section('js-header')
+<script defer>
+document.addEventListener('DOMContentLoaded', () => {
+    const ToggleMobileMenu = () => {
+        const mobileMenu = document.getElementById('colonial-mobile-menu-bg');
+        mobileMenu.classList.toggle('hidden');
+    }
+    
+    document.getElementById('colonial-menu-mobile-button').addEventListener('click', ToggleMobileMenu);
+    document.getElementById('colonial-mobile-menu-bg').addEventListener('click', ToggleMobileMenu);
+    document.getElementById('colonial-mobile-menu-aside').addEventListener('click', (e) => e.stopPropagation());
+});
+</script>
+@endsection

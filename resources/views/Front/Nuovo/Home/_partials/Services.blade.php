@@ -1,5 +1,5 @@
 <section>
-    <div class="bg-primary-light">
+    <div class="bg-primary-light w-full overflow-hidden">
         <div class="max-w-7xl mx-auto px-14 py-20">
             <div>
                 <div>
@@ -12,44 +12,46 @@
                     </h2>
                 </div>
             </div>
-            <div class="flex justify-between">
+            <div class="ServicesSwiper">
+                <div class="swiper-wrapper md:hidden flex justify-between">
 
-                <div class="flex flex-col items-center">
-                    <div class="w-[249px] rounded-full overflow-hidden mb-4 border border-primary-gray p-[.12rem]">
-                        <img class="rounded-full overflow-hidden" src="{{asset('images/services/servicio-habitacion 1.png')}}" alt="Servicio Real de Castilla a la habitación">                        
+                    <div class="swiper-slide flex flex-col items-center">
+                        <div class="w-[249px] rounded-full overflow-hidden mb-4 border border-primary-gray p-[.12rem]">
+                            <img class="rounded-full overflow-hidden" src="{{asset('images/services/servicio-habitacion 1.png')}}" alt="Servicio Real de Castilla a la habitación">                        
+                        </div>
+                        <div class="text-center">
+                            <p class="font-bold">Servicio a la habitación</p>
+                        </div>
                     </div>
-                    <div>
-                        <p class="font-bold">Servicio a la habitación</p>
+
+                    <div class="swiper-slide flex flex-col items-center">
+                        <div class="w-[249px] rounded-full overflow-hidden mb-4 border border-primary-gray p-[.12rem]">
+                            <img class="rounded-full overflow-hidden" src="{{asset('images/services/servicio-2.png')}}" alt="Servicio Real de Castilla Restaurante">                        
+                        </div>
+                        <div class="text-center">
+                            <p class="font-bold">Restaurante</p>
+                        </div>
                     </div>
+
+                    <div class="swiper-slide flex flex-col items-center">
+                        <div class="w-[249px] rounded-full overflow-hidden mb-4 border border-primary-gray p-[.12rem]">
+                            <img class="rounded-full overflow-hidden" src="{{asset('images/services/servicio-3.png')}}" alt="Servicio Real de Castilla Tours">                        
+                        </div>
+                        <div class="text-center">
+                            <p class="font-bold">Tours</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide flex flex-col items-center">
+                        <div class="w-[249px] rounded-full overflow-hidden mb-4 border border-primary-gray p-[.12rem]">
+                            <img class="rounded-full overflow-hidden" src="{{asset('images/services/servicio-4.png')}}" alt="Servicio Real de Castilla Lavanderia">                        
+                        </div>
+                        <div class="text-center">
+                            <p class="font-bold">Lavanderia</p>
+                        </div>
+                    </div>
+
                 </div>
-
-                <div class="flex flex-col items-center">
-                    <div class="w-[249px] rounded-full overflow-hidden mb-4 border border-primary-gray p-[.12rem]">
-                        <img class="rounded-full overflow-hidden" src="{{asset('images/services/servicio-2.png')}}" alt="Servicio Real de Castilla Restaurante">                        
-                    </div>
-                    <div>
-                        <p class="font-bold">Restaurante</p>
-                    </div>
-                </div>
-
-                <div class="flex flex-col items-center">
-                    <div class="w-[249px] rounded-full overflow-hidden mb-4 border border-primary-gray p-[.12rem]">
-                        <img class="rounded-full overflow-hidden" src="{{asset('images/services/servicio-3.png')}}" alt="Servicio Real de Castilla Tours">                        
-                    </div>
-                    <div>
-                        <p class="font-bold">Tours</p>
-                    </div>
-                </div>
-
-                <div class="flex flex-col items-center">
-                    <div class="w-[249px] rounded-full overflow-hidden mb-4 border border-primary-gray p-[.12rem]">
-                        <img class="rounded-full overflow-hidden" src="{{asset('images/services/servicio-4.png')}}" alt="Servicio Real de Castilla Lavanderia">                        
-                    </div>
-                    <div>
-                        <p class="font-bold">Lavanderia</p>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>

@@ -75,9 +75,7 @@
     </div>
 </section>
 @endsection
-@section('js-header')
 
-@endsection
 @section('js')
     @vite('resources/js/Booking/DirectBooking.js')
     @vite('resources/js/DatePicker/DatePicker.js')
