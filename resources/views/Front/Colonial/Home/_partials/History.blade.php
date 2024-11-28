@@ -1,6 +1,6 @@
 <section>
     <div class="w-full bg-primary-bronze">
-        <div class="max-w-7xl mx-auto px-14 py-20">
+        <div class="max-w-7xl mx-auto px-7 sm:px-14 py-20">
             <div class="text-white flex flex-col justify-center mx-auto w-fit">
                 <div>
                     <div class="flex items-baseline text-[.6rem] text-primary-gray mb-7">

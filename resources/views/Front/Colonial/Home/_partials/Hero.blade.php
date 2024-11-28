@@ -18,7 +18,7 @@
                     <div class="text-white bg-primary-dark w-80 md:w-[50rem] text-xs font-semibold tracking-wide px-9 py-9 lg:py-7">
                         <div class="flex flex-col sm:flex-row justify-center items-center gap-x-14">
                         
-                            <div id="GuestsTrigger" class="w-full mb-12 sm:mb-0 sm:w-auto flex items-start gap-4 hover:cursor-pointer hover:text-primary-orange">
+                            <div id="GuestsTrigger" class="w-full mb-12 sm:mb-0 sm:w-auto flex items-center jus sm:items-start gap-4 hover:cursor-pointer hover:text-primary-orange">
                                 <div>
                                     <img src="{{asset('icons/guest.svg')}}" alt="Icono Huesped">
                                 </div>
