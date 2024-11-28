@@ -1,5 +1,5 @@
 <section>
-    <div class="max-w-7xl mx-auto px-14 py-20">
+    <div class="max-w-7xl mx-auto px-7 sm:px-14 py-20">
         <div class="flex flex-col md:flex-row justify-between items-start gap-x-14 min-h-screen">
             <div class="md:w-1/2 mt-3">
                 <div>
