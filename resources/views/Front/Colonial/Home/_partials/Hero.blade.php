@@ -15,7 +15,7 @@
 
             <div class="self-center -mb-12 sm:mb-0">
                 <div>
-                    <div class="text-white bg-primary-dark w-64 md:w-[50rem] text-xs font-semibold tracking-wide px-9 py-9 lg:py-7">
+                    <div class="text-white bg-primary-dark w-80 md:w-[50rem] text-xs font-semibold tracking-wide px-9 py-9 lg:py-7">
                         <div class="flex flex-col sm:flex-row justify-center items-center gap-x-14">
                         
                             <div id="GuestsTrigger" class="w-full mb-12 sm:mb-0 sm:w-auto flex items-start gap-4 hover:cursor-pointer hover:text-primary-orange">
@@ -65,8 +65,8 @@
                                 </div>
                             </div>
 
-                            <div class="mt-3 sm:mt-0">
-                                <button id="BookingWidgetBtn" class="bg-primary-orange text-white font-semibold py-5 px-10 rounded-[5px] hover:bg-primary-dark ring-2 ring-primary-orange ring-inset transition-colors duration-150">
+                            <div class="mt-3 sm:mt-0 w-full sm:w-auto">
+                                <button id="BookingWidgetBtn" class="w-full bg-primary-orange text-white font-semibold py-5 px-10 rounded-[5px] hover:bg-primary-dark ring-2 ring-primary-orange ring-inset transition-colors duration-150">
                                     Book now
                                 </button>
                             </div>
