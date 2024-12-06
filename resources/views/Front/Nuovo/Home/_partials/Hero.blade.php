@@ -66,9 +66,11 @@
                             </div>
 
                             <div class="mt-3 sm:mt-0 w-full sm:w-auto">
-                                <button id="BookingWidgetBtn" class="w-full bg-primary-orange text-white font-semibold py-5 px-10 rounded-[5px] hover:bg-primary-dark ring-2 ring-primary-orange ring-inset transition-colors duration-150">
-                                    Book now
-                                </button>
+                                <a href="{{ route('direct.booking', ['hotel'=>'nuovo']) }}">
+                                    <button class="w-full bg-primary-orange text-white font-semibold py-5 px-10 rounded-[5px] hover:bg-primary-dark ring-2 ring-primary-orange ring-inset transition-colors duration-150">
+                                        Book now
+                                    </button>
+                                </a>
                             </div>
 
                         </div>

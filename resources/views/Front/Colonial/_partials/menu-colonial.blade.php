@@ -33,7 +33,9 @@
                 
                 <div>
                     <div>
+                        <a href="{{ route('direct.booking', ['hotel'=>'colonial']) }}">
                             <button class="text-white text-sm tracking-widest border border-white py-2 px-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
+                        </a>
                     </div>
                 </div>
 

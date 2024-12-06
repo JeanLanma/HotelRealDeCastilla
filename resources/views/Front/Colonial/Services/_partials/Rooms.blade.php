@@ -25,7 +25,7 @@
                         </ul>
 
                         <div>
-                            <button onclick="window.location.href = '{{route('direct.booking', ['hotel'=>'colonial'])}}'" class="text-xs font-semibold uppercase border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
+                            <button onclick="window.location.href = '{{route('contact')}}'" class="text-xs font-semibold uppercase border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
                         </div>
 
                     </div>
@@ -62,7 +62,7 @@
                         </ul>
 
                         <div>
-                            <button onclick="window.location.href = '{{route('direct.booking', ['hotel'=>'colonial'])}}'" class="text-xs font-semibold uppercase border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
+                            <button onclick="window.location.href = '{{route('contact')}}'" class="text-xs font-semibold uppercase border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
                         </div>
 
                     </div>
@@ -99,7 +99,7 @@
                         </ul>
 
                         <div>
-                            <button onclick="window.location.href = '{{route('direct.booking', ['hotel'=>'colonial'])}}'" class="text-xs font-semibold uppercase border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
+                            <button onclick="window.location.href = '{{route('contact')}}'" class="text-xs font-semibold uppercase border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
                         </div>
 
                     </div>
@@ -136,7 +136,7 @@
                         </ul>
 
                         <div>
-                            <button onclick="window.location.href = '{{route('direct.booking', ['hotel'=>'colonial'])}}'" class="text-xs font-semibold uppercase border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
+                            <button onclick="window.location.href = '{{route('contact')}}'" class="text-xs font-semibold uppercase border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
                         </div>
 
                     </div>
@@ -173,7 +173,7 @@
                         </ul>
 
                         <div>
-                            <button onclick="window.location.href = '{{route('direct.booking', ['hotel'=>'colonial'])}}'" class="text-xs font-semibold uppercase border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
+                            <button onclick="window.location.href = '{{route('contact')}}'" class="text-xs font-semibold uppercase border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
                         </div>
 
                     </div>
@@ -210,7 +210,7 @@
                         </ul>
 
                         <div>
-                            <button onclick="window.location.href = '{{route('direct.booking', ['hotel'=>'colonial'])}}'" class="text-xs font-semibold uppercase border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
+                            <button onclick="window.location.href = '{{route('contact')}}'" class="text-xs font-semibold uppercase border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
                         </div>
 
                     </div>
@@ -248,7 +248,7 @@
                         </ul>
 
                         <div>
-                            <button onclick="window.location.href = '{{route('direct.booking', ['hotel'=>'colonial'])}}'" class="text-xs font-semibold uppercase border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
+                            <button onclick="window.location.href = '{{route('contact')}}'" class="text-xs font-semibold uppercase border border-white rounded-full px-5 py-3 hover:text-primary-dark hover:bg-white transition-colors duration-200">Reservar ahora</button>
                         </div>
 
                     </div>

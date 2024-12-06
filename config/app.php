@@ -123,4 +123,18 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+        /*
+    |--------------------------------------------------------------------------
+    | Rengin integration
+    |--------------------------------------------------------------------------
+    |
+    | Integración con el motor de reservas en linea de rengin
+    |
+    | VERSION: 1.0.2
+    |
+    */
+    'rengin' => [
+        'colonial_url' => env('APP_RENGIN_COLONIAL_URL', 'https://colonial.pcbtroniks.com/direct-booking'),
+        'nuovo_url' => env('APP_RENGIN_NUOVO_URL', 'https://nuovo.pcbtroniks.com/direct-booking'),
+    ]
 ];
