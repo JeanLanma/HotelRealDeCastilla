@@ -1,4 +1,4 @@
-<div class="bg-[url('images/hero-home.png')] bg-cover bg-center bg-no-repeat w-full min-h-screen">
+<div class="bg-[url('images/background-hero.png')] bg-cover bg-center bg-no-repeat w-full min-h-screen">
     <div class="mx-auto max-w-7xl px-6 lg:px-24 flex flex-col justify-center items-start">
         <div class="mt-28 lg:mt-44 xl:mt-60">
             <div class="text-white">
