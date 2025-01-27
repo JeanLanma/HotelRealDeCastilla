@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Background */
+
+.hero-image-bg {
+    background-image: url('images/background-hero-m.png');
+}
+@media screen and (min-width: 768px) {
+    .hero-image-bg {
+        background-image: url('images/background-hero.png');
+        background-size: cover;
+        background-position: center;
+    }    
+}
+
 /* Animations */
 .pulse-on-hover:hover {
     display: inline-block;

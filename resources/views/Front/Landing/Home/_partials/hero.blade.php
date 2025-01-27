@@ -1,4 +1,4 @@
-<div class="bg-[url('images/background-hero.png')] bg-cover bg-center bg-no-repeat w-full min-h-screen">
+<div class="hero-image-bg bg-cover bg-center bg-no-repeat w-full min-h-screen">
     <div class="mx-auto max-w-7xl px-6 lg:px-24 flex flex-col justify-center items-start">
         <div class="mt-28 lg:mt-44 xl:mt-60">
             <div class="text-white">
@@ -17,15 +17,30 @@
                 </p>
             </div>
         </div>
-        <div class="pt-16 xl:pt-20 mx-auto rounde-md">
-            <button onclick="moveToElement('locations', 100)" class="py-2 px-5 xl:py-4 xl:px-10 rounded-lg bg-acent-blue text-white font-semibold xl:font-bold uppercase flex items-center">
+        <div class="pt-16 xl:pt-20 mx-auto rounde-md flex flex-col md:flex-row items-center">
+
+            <a href="{{ route('home.nuovo') }}">
+            <button class="py-2 px-5 xl:py-4 xl:px-10 rounded-lg bg-acent-blue text-white font-semibold xl:font-bold uppercase flex items-center">
                 <div class="w-4 xl:w-6">
                     <img class="w-full" src="{{asset('icons/book-now.svg')}}" alt="Book now icon">
                 </div>
-                <p class="ml-4 text-sm xl:text-lg">
-                    Reserva ahora
+                <p class="ml-2 text-xs md:text-sm xl:text-lg">
+                    Hotel Real de Castilla <span class="text-golden-yellow">Nuovo</span>
                 </p>
             </button>
+            </a>
+
+            <a class="mt-10 md:mt-0" href="{{route('home.colonial')}}">
+            <button class="sm:ml-32 lg:ml-44 py-2 px-5 xl:py-4 xl:px-10 rounded-lg bg-golden-yellow text-white font-semibold xl:font-bold uppercase flex items-center">
+                <div class="w-4 xl:w-6">
+                    <img class="w-full" src="{{asset('icons/book-now.svg')}}" alt="Book now icon">
+                </div>
+                <p class="ml-2 text-xs md:text-sm xl:text-lg">
+                    Hotel Real de Castilla Colonial
+                </p>
+            </button>
+            </a>
+
         </div>
         <div class="mx-auto py-7 xl:py-14">
             <div onclick="moveToElement('locations', 100)" class="flex flex-col items-center justify-center cursor-pointer">

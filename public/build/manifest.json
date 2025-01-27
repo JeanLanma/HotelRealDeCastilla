@@ -4,9 +4,17 @@
     "name": "_commonjsHelpers"
   },
   "resources/css/app.css": {
-    "file": "assets/app-CSuNSpd8.css",
+    "file": "assets/app-K36rt7Jw.css",
     "src": "resources/css/app.css",
     "isEntry": true
+  },
+  "resources/css/images/background-hero-m.png": {
+    "file": "assets/background-hero-m-C6uoZjrd.png",
+    "src": "resources/css/images/background-hero-m.png"
+  },
+  "resources/css/images/background-hero.png": {
+    "file": "assets/background-hero-BFfEaKTx.png",
+    "src": "resources/css/images/background-hero.png"
   },
   "resources/css/images/hero-home.png": {
     "file": "assets/hero-home-DnF_zAEd.png",
